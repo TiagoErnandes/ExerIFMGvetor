@@ -32,8 +32,8 @@ public class Exercicio35 {
 			}
 		}
 		
-		System.out.println("A soma dos pesos de mulheres acima de 30 "+somaPesoMulheres);
-		System.out.println("A maior altura dos homens "+maiorAlturaHomens);
+		System.out.println("A soma dos pesos de mulheres acima de 30 :"+somaPesoMulheres);
+		System.out.println("A maior altura dos homens :"+maiorAlturaHomens);
 
 	}
 
