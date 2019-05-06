@@ -17,5 +17,11 @@ public class Exercicios30 {
 			for (int j = i; j > 0; j--)
 				System.out.print("#");
 		}
+<<<<<<< HEAD
+=======
+	}
+	
+
+>>>>>>> branch 'master' of https://github.com/TiagoErmamdes/aulas-Java.git
 	}
 }
