@@ -26,6 +26,7 @@ public class Exercicio32 {
 			}
 			System.out.println("O numero "+m+" possui "+totD+" divisores.");
 		}else if(m % 2 == 1 && m < 10 ) {
+			fat=1;
 			for (int i =m;i>1;i--) {
 				fat *=i;
 			}

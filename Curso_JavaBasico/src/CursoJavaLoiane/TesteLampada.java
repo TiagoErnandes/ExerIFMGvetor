@@ -1,4 +1,4 @@
-package CursoJavaLoiane;
+	package CursoJavaLoiane;
 
 public class TesteLampada {
 
@@ -6,13 +6,17 @@ public class TesteLampada {
 		Lampada lampada = new Lampada();
 		
 		lampada.setCor("Amarelo");
-		lampada.setLigado(true);
+		lampada.setLigado(false);
 		lampada.setVoltagem(12);
 		System.out.println(lampada.toString());
 		lampada.Ligar();
 		System.out.println(lampada.toString());
 		lampada.Ligar();
 		System.out.println(lampada.toString());
+		
+		lampada.setTipo("A Budega");
+		System.out.println(lampada.getTipo());
+		
 
 	}
 

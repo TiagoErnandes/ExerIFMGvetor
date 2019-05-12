@@ -7,11 +7,6 @@ public class Carro {
 	private double capCombustivel;
 	private double consumoCombustivel;
 	
-	
-	
-	
-	
-	
 	public Carro() {
 		super();
 		this.marca = marca;

@@ -10,7 +10,9 @@ public class TesteCarro {
 		van.setNumPassageiros(4);
 		van.setCapCombustivel(60);
 		van.setConsumoCombustivel(20);
-		System.out.println(van.toString());
+		
+		van.toString();
+		System.out.println();
 
 	}
 
